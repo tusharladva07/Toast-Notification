@@ -37,12 +37,12 @@ cursor: pointer;
     display: flex;
     align-items: center;
     position: relative;
-    transform: translateY(100%);
+    transform: translateX(100%);
     animation: moveleft 0.5s linear forwards;
 }
 @keyframes moveleft {
     100%{
-        transform: translateY(0);
+        transform: translateX(0);
     }
 }
 .toast i {
